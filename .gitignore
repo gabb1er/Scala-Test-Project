@@ -1,0 +1,10 @@
+# user-specific stuff:
+.idea/
+.bsp/
+.lib/
+.local/
+
+# build directories:
+/target
+/project/target
+/project/project

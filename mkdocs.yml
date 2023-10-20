@@ -1,0 +1,4 @@
+site_name: Gabbler Scala Test Project
+
+theme:
+  name: material
