@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Test Docs for Scala Test Project","text":"<p>Latest Version: 0.0.0</p> <p>This is a playground project to test GitHub features for Scala projects and other general stuff.</p>"}]}
