@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/gabb1er/Scala-Test-Project/compare/v1.0.1...v1.1.0) (2023-10-23)
+
+
+### Features
+
+* change pages deploy ([3915f9b](https://github.com/gabb1er/Scala-Test-Project/commit/3915f9b83c32cb8f6fc948c0da918abad7120aa7))
+
 ## [1.0.1](https://github.com/gabb1er/Scala-Test-Project/compare/v1.0.0...v1.0.1) (2023-10-23)
 
 
