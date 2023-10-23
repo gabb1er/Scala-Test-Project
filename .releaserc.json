@@ -1,6 +1,6 @@
-const config = {
-    branches: ['main'],
-    plugings: [
+{
+    "branches": ["main"],
+    "plugings": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         ["@semantic-release/exec", {
@@ -15,5 +15,4 @@ const config = {
         }],
         "@semantic-release/guthub"
     ]
-};
-module.exports = config
+}
