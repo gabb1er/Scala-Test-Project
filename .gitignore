@@ -3,8 +3,12 @@
 .bsp/
 .lib/
 .local/
+.bloop/
+.metals/
+.vscode/
 
 # build directories:
 /target
+/project/.bloop
 /project/target
 /project/project

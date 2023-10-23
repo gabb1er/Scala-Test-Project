@@ -1,10 +1,12 @@
 package example
 
-import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.wordspec.AnyWordSpec
 import org.scalatest.matchers.should.Matchers
 
-class HelloSpec extends AnyFlatSpec with Matchers {
-  "Hello object" should "say hello" in {
-    Hello.greeting shouldEqual "hello"
-  }
+class HelloSpec extends AnyWordSpec with Matchers {
+  "Hello object" should {
+      "say hello" in {
+        Hello.greeting shouldEqual "hello"
+    }
+  } 
 }

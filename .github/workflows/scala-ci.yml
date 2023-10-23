@@ -1,11 +1,11 @@
-
-
 name: Scala CI
 on:
   push:
     branches: [ "main" ]
 permissions:
   contents: write
+  issues: write
+  pull-requests: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,6 +22,17 @@ jobs:
       # Optional: This step uploads information to the GitHub dependency graph and unblocking Dependabot alerts for the repository
     - name: Upload dependency graph
       uses: scalacenter/sbt-dependency-submission@ab086b50c947c9774b70f39fc7f6e20ca2706c91
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: action/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm install -g semantic-release @semantic-release/git @semantic-release/changelog @semantic-release/exec
+      - run: semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   pages: # deploy docs
     runs-on: ubuntu-latest
     steps:
