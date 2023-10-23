@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/gabb1er/Scala-Test-Project/compare/v1.0.0...v1.0.1) (2023-10-23)
+
+
+### Bug Fixes
+
+* split CI into separate workflows ([728d496](https://github.com/gabb1er/Scala-Test-Project/commit/728d496569697a9fededb9a2b7445390f35690bb))
+
 # 1.0.0 (2023-10-23)
 
 
