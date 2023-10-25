@@ -24,4 +24,4 @@ jobs:
       - name: Run All Tests
         run: sbt test
       - name: Upload Dependency Graph
-        uses: scalacenter/sbt-dependency-submission@2
+        uses: scalacenter/sbt-dependency-submission@v2.2.0
