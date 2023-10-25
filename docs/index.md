@@ -1,6 +1,6 @@
 # Test Docs for Scala Test Project
 
-**Latest Version: 1.1.0**
+**Latest Version: 1.2.0**
 
 --
 

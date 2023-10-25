@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/gabb1er/Scala-Test-Project/compare/v1.1.0...v1.2.0) (2023-10-25)
+
+
+### Bug Fixes
+
+* update documentation ([#3](https://github.com/gabb1er/Scala-Test-Project/issues/3)) ([8cef1cb](https://github.com/gabb1er/Scala-Test-Project/commit/8cef1cba4739acd8186fb8b4234ea478718345de))
+* update scala dependency action version ([04607c4](https://github.com/gabb1er/Scala-Test-Project/commit/04607c4a46500778ccca2dfed43dfe9c06380069))
+
+
+### Features
+
+* add Fibonacci number function ([#2](https://github.com/gabb1er/Scala-Test-Project/issues/2)) ([b3f08ea](https://github.com/gabb1er/Scala-Test-Project/commit/b3f08ea7f1cb7ea36a4d2588d90b9f8597de1747))
+* update github actions ([0af80eb](https://github.com/gabb1er/Scala-Test-Project/commit/0af80ebed236c629eb402a1bb6e74bc0b50c03bc))
+
 # [1.1.0](https://github.com/gabb1er/Scala-Test-Project/compare/v1.0.1...v1.1.0) (2023-10-23)
 
 
