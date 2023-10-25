@@ -1,13 +1,14 @@
-name: Semantic Release
+name: Checkita Release
+
 on:
-  push:
-    branches: [ "main" ]
-permissions:
-  contents: write
-  issues: write
-  pull-requests: write
+  workflow_dispatch:
+
 jobs:
   release:
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,6 +21,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   pages: # deploy docs
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     needs: release
     steps:

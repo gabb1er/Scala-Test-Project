@@ -8,7 +8,7 @@ object Hello extends Greeting with App {
     *
     * @param a First number
     * @param b Second Number
-    * @return Sum of first and second nubmer
+    * @return Sum of first and second number
     */
   def sum(a: Int, b: Int): Int = a + b
 }
