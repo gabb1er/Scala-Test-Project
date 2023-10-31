@@ -18,6 +18,7 @@ object Hello extends Greeting with App {
   println(s"Computed $n-th Fibonacci number: ${fibonacci(n)}")
   val nn = 255
   println(s"Computed $nn-th Fibonacci number: ${fibonacci(nn)}")
+  println("Done")
 }
 
 trait Greeting {
