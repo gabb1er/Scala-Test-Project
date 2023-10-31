@@ -11,15 +11,22 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
+      - name: Generate SemVer App Token
+        id: app_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.SEMVER_APP_ID }}
+          private-key: ${{ secrets.SEMVER_APP_PKEY }}
       - uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app_token.outputs.token }}
       - uses: actions/setup-node@v3
         with:
           node-version: 18
       - run: npm install -g semantic-release @semantic-release/git @semantic-release/changelog @semantic-release/exec
-      - run: ls -lah
       - run: semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.app_token.outputs.token }}
   pages: # deploy docs
     permissions:
       contents: write
