@@ -6,6 +6,8 @@
 .bloop/
 .metals/
 .vscode/
+.sbtopts
+.jvmopts
 
 # build directories:
 /target
