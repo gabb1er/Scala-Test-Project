@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/gabb1er/Scala-Test-Project/compare/v1.2.0...v1.2.1) (2023-10-31)
+
+
+### Bug Fixes
+
+* update release ci to bypass branch protection ([3615c1e](https://github.com/gabb1er/Scala-Test-Project/commit/3615c1e1b1cb2928688947d5d3896c56cdb9d41e))
+
 # [1.2.0](https://github.com/gabb1er/Scala-Test-Project/compare/v1.1.0...v1.2.0) (2023-10-25)
 
 
